@@ -1,6 +1,3 @@
-// import express from 'express';
-
-// import main from '../main';
 var express = require('express');
 var main = require('../main.js');
 var router = express.Router();

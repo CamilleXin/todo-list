@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "api": "cd ./mock && npm run start"
+    "api": "cd ./mock && npm run start",
+    "setup": "npm i && cd ./mock && npm install && cd .."
   },
   "dependencies": {
     "axios": "^0.25.0",
